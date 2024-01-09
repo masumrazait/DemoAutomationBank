@@ -8,7 +8,8 @@
 	<test name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.DemoAutomationBank.testing.ChromeLaunch" />
+			<class name="com.parabank.testCases.BaseClass"/>
+			<class name="com.DemoAutomationBank.testCases.CustomerLogin_TestCase" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
