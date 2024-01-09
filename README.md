@@ -2,9 +2,12 @@
 
 Welcome to DemoAutomation Bank, an exemplary online banking application meticulously designed for testing and automation purposes. This project emulates a real-world banking system, offering essential functionalities such as user registration, secure login, account management, fund transfers, and transaction history.
 
+![Project](TestData/project.png)
+#### For a live preview, visit the [DemoAutomation Bank Website](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login)
+
 ## Key Features
 
-- **User Registration:** Seamlessly create new accounts with personal information and chosen credentials.
+- **Add Customer:** Seamlessly create new accounts with personal information and chosen credentials.
 - **Login:** Securely access accounts with registered credentials.
 - **Account Management:** View and manage accounts, update personal details, and modify passwords.
 - **Fund Transfers:** Effortlessly transfer funds between accounts or to other registered users.
@@ -43,5 +46,3 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ## Disclaimer
 
 DemoAutomation Bank is a fictional online banking application designed exclusively for testing and automation purposes. It does not involve real financial transactions or store sensitive user information. Treat this project as a simulation, refraining from using it for actual banking operations.
-
-![Project](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login)https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login)
