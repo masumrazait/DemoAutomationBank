@@ -33,7 +33,7 @@ public class Reporting extends TestListenerAdapter implements ITestListener,ISui
 	public void onStart(ITestContext testContext)
 	{
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
-		String repName="ParaBank-Test-Report-"+timeStamp+".html";
+		String repName="DemoAutomation Bank-Test-Report-"+timeStamp+".html";
 		
 		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "\\Report\\"+repName);//specify location of the report
 		try {

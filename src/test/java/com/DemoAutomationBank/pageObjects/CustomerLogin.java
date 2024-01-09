@@ -14,26 +14,28 @@ public class CustomerLogin {
 		PageFactory.initElements(rdriver, this);
 	}
 
-	@FindBy(xpath="//button[text()='Customer Login']")
+	@FindBy(xpath = "//button[text()='Customer Login']")
 	@CacheLookup
 	WebElement CustomerLoginBtn;
 
 	@FindBy(id = "userSelect")
 	@CacheLookup
 	WebElement selectCutomer;
-	
+
 	@FindBy(xpath = "//button[text()='Login']")
 	@CacheLookup
 	WebElement LoginBtn;
-	
+
 	// Action Method
 	public void clickOnCustomerLoginBtn() {
 		CustomerLoginBtn.click();
 	}
+
 	public WebElement selectCutomerName() {
 		selectCutomer.click();
 		return selectCutomer;
 	}
+
 	public void clickOnLoginBtn() {
 		LoginBtn.click();
 	}

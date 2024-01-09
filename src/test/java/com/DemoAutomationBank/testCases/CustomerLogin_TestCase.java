@@ -33,25 +33,21 @@ public class CustomerLogin_TestCase extends BaseClass {
 		}
 		
 		Select FromCutomer = new Select(lp.selectCutomerName());
-		FromCutomer.selectByIndex(8);
+		FromCutomer.selectByIndex(5);
 		logger.info("User choose to Cutomer Id");
 
 		lp.clickOnLoginBtn();
 		logger.info("User Clicked on Login button");
 		Thread.sleep(3000);
 		
-		System.out.println(driver.getPageSource());
-		
-		Thread.sleep(3000);
-		/*
-		if (driver.getPageSource().contains("Bill Payment Complete")) {
+		if (driver.getPageSource().contains("Neville Longbottom")) {
 			Assert.assertTrue(true);
-			logger.info("Bill Payment is transfer from account was successful. test passed!");
+			logger.info("Account login successful. test passed!");
 		} else {
-			captureScreen(driver, "BillPayWithValidDetailsTest");
+			captureScreen(driver, "CustomerLoginValidDetailsTest");
 			Assert.assertTrue(false);
-			logger.info("Bill Payment is not transfer from account was successful. test failed");
-		}*/
+			logger.info("Account login was successful. test failed");
+		}
 
 	}
 }

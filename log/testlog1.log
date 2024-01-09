@@ -4,3 +4,27 @@
 2024-01-09 21:33:18,504 [main] INFO ParaBanking - URL is opened
 2024-01-09 21:33:20,423 [main] INFO ParaBanking - User clicked on Login Button
 2024-01-09 21:33:22,438 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:36:50,978 [main] INFO ParaBanking - URL is opened
+2024-01-09 21:36:51,919 [main] INFO ParaBanking - User clicked on Login Button
+2024-01-09 21:36:53,922 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:37:42,489 [main] INFO ParaBanking - URL is opened
+2024-01-09 21:37:43,507 [main] INFO ParaBanking - User clicked on Login Button
+2024-01-09 21:37:45,534 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:37:45,754 [main] INFO ParaBanking - User choose to Cutomer Id
+2024-01-09 21:37:45,814 [main] INFO ParaBanking - User Clicked on Login button
+2024-01-09 21:39:53,992 [main] INFO ParaBanking - URL is opened
+2024-01-09 21:39:54,802 [main] INFO ParaBanking - User clicked on Login Button
+2024-01-09 21:39:56,810 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:39:57,017 [main] INFO ParaBanking - User choose to Cutomer Id
+2024-01-09 21:39:57,090 [main] INFO ParaBanking - User Clicked on Login button
+2024-01-09 21:41:36,409 [main] INFO ParaBanking - URL is opened
+2024-01-09 21:41:37,188 [main] INFO ParaBanking - User clicked on Login Button
+2024-01-09 21:41:39,201 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:41:39,445 [main] INFO ParaBanking - User choose to Cutomer Id
+2024-01-09 21:41:39,488 [main] INFO ParaBanking - User Clicked on Login button
+2024-01-09 21:45:00,948 [main] INFO ParaBanking - URL is opened
+2024-01-09 21:45:01,902 [main] INFO ParaBanking - User clicked on Login Button
+2024-01-09 21:45:03,916 [main] INFO ParaBanking - Login test passed
+2024-01-09 21:45:04,144 [main] INFO ParaBanking - User choose to Cutomer Id
+2024-01-09 21:45:04,188 [main] INFO ParaBanking - User Clicked on Login button
+2024-01-09 21:45:07,200 [main] INFO ParaBanking - Account login successful. test passed!
