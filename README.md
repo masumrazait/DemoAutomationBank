@@ -7,8 +7,8 @@ Welcome to DemoAutomation Bank, an exemplary online banking application meticulo
 
 ## Key Features
 
-- **Add Customer:** Seamlessly create new accounts with personal information and chosen credentials.
-- **Login:** Securely access accounts with registered credentials.
+- **Customer Login:** Registered customers can securely access their accounts with designated credentials.
+- **Bank Manager Login:** Authorized bank managers can log in to access advanced functionalities.
 - **Account Management:** View and manage accounts, update personal details, and modify passwords.
 - **Fund Transfers:** Effortlessly transfer funds between accounts or to other registered users.
 - **Transaction History:** Detailed records of transactions, including dates, amounts, and types.
@@ -37,11 +37,7 @@ To leverage DemoAutomation Bank for testing and automation:
 
 ## Contributions
 
-Contributions to DemoAutomation Bank are encouraged! Report issues or submit pull requests on the [GitHub repository](insert_repository_link). Please adhere to existing coding standards and testing practices.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute it according to the terms of the license.
+Contributions to DemoAutomation Bank are encouraged! Report issues or submit pull requests on the [GitHub repository](https://github.com/masumrazait/DemoAutomationBank). Please adhere to existing coding standards and testing practices.
 
 ## Disclaimer
 
