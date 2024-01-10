@@ -25,6 +25,10 @@ public class CustomerLogin {
 	@FindBy(xpath = "//button[text()='Login']")
 	@CacheLookup
 	WebElement LoginBtn;
+	
+	@FindBy(xpath = "//button[text()='Home']")
+	@CacheLookup
+	WebElement HomeBtn;
 
 	// Action Method
 	public void clickOnCustomerLoginBtn() {
@@ -38,5 +42,9 @@ public class CustomerLogin {
 
 	public void clickOnLoginBtn() {
 		LoginBtn.click();
+	}
+	
+	public void clickOnHomeBtn() {
+		HomeBtn.click();
 	}
 }

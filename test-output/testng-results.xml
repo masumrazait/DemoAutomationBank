@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="155" passed="155" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-09T21:44:56 IST" name="Suite" finished-at="2024-01-09T21:45:07 IST" duration-ms="11435">
+  <suite started-at="2024-01-10T00:51:29 IST" name="Suite" finished-at="2024-01-10T01:05:45 IST" duration-ms="855642">
     <groups>
     </groups>
-    <test started-at="2024-01-09T21:44:56 IST" name="Test" finished-at="2024-01-09T21:45:07 IST" duration-ms="11435">
+    <test started-at="2024-01-10T00:51:29 IST" name="Test" finished-at="2024-01-10T01:05:45 IST" duration-ms="855642">
       <class name="com.DemoAutomationBank.testCases.CustomerLogin_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-09T21:44:56 IST" name="setup" finished-at="2024-01-09T21:45:00 IST" duration-ms="4265" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:29 IST" name="setup" finished-at="2024-01-10T00:51:32 IST" duration-ms="2792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,627 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CustomerLoginValidDetailsTest()[pri:1, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-09T21:45:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-09T21:45:07 IST" duration-ms="6300" status="PASS">
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:32 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:51:38 IST" duration-ms="5849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerLoginValidDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-09T21:45:07 IST" name="tearDown" finished-at="2024-01-09T21:45:07 IST" duration-ms="493" status="PASS">
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:38 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:51:43 IST" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:43 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:51:49 IST" duration-ms="5333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:51:54 IST" duration-ms="5333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:54 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:51:59 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:51:59 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:05 IST" duration-ms="5300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:05 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:10 IST" duration-ms="5322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:10 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:15 IST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:15 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:21 IST" duration-ms="5363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:21 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:26 IST" duration-ms="5337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:26 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:32 IST" duration-ms="5368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:32 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:37 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:37 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:43 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:43 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:48 IST" duration-ms="5527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:48 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:54 IST" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:54 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:52:59 IST" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:52:59 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:05 IST" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:05 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:10 IST" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:10 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:16 IST" duration-ms="5541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:16 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:22 IST" duration-ms="5732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:27 IST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:27 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:33 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:38 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:38 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:44 IST" duration-ms="5498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:49 IST" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:53:55 IST" duration-ms="5481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:53:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:00 IST" duration-ms="5478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:06 IST" duration-ms="5469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:11 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:17 IST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:22 IST" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:28 IST" duration-ms="5673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:33 IST" duration-ms="5697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:39 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:45 IST" duration-ms="5487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:45 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:50 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:50 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:54:56 IST" duration-ms="5570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:54:56 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:01 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:01 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:07 IST" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:07 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:12 IST" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:13 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:18 IST" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:18 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:24 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:24 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:29 IST" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:29 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:35 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:35 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:40 IST" duration-ms="5560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:40 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:46 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:46 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:51 IST" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:51 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:55:57 IST" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:55:57 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:02 IST" duration-ms="5479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:02 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:08 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:08 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:13 IST" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:13 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:19 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:19 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:24 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:24 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:30 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:30 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:35 IST" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:35 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:41 IST" duration-ms="5452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:41 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:46 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:46 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:52 IST" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:52 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:56:57 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:56:57 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:03 IST" duration-ms="5435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:03 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:08 IST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:08 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:14 IST" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:14 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:19 IST" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:19 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:25 IST" duration-ms="5580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:25 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:30 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:30 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:36 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:36 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:41 IST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:41 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:47 IST" duration-ms="5522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:47 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:53 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:53 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:57:58 IST" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:57:58 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:04 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:04 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:09 IST" duration-ms="5625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:09 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:15 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:15 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:21 IST" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:21 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:26 IST" duration-ms="5497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:26 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:32 IST" duration-ms="5581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:32 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:37 IST" duration-ms="5699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:37 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:43 IST" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:43 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:49 IST" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:54 IST" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:54 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:58:59 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:58:59 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:05 IST" duration-ms="5637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:05 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:11 IST" duration-ms="5632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:16 IST" duration-ms="5512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:16 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:22 IST" duration-ms="5482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:27 IST" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:27 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:33 IST" duration-ms="5483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:38 IST" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:38 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:44 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:49 IST" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T00:59:55 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T00:59:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:00 IST" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:05 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:05 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:11 IST" duration-ms="5487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:16 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:16 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:22 IST" duration-ms="5554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:27 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:27 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:33 IST" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:38 IST" duration-ms="5403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:38 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:44 IST" duration-ms="5411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:49 IST" duration-ms="5478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:00:55 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:00:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:00 IST" duration-ms="5591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:06 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:11 IST" duration-ms="5462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:17 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:22 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:28 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:33 IST" duration-ms="5477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:39 IST" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:44 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:49 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:49 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:01:55 IST" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:01:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:00 IST" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:06 IST" duration-ms="5482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:11 IST" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:17 IST" duration-ms="5431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:22 IST" duration-ms="5515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:28 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:33 IST" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:39 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:44 IST" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:50 IST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:50 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:02:55 IST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:02:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:00 IST" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:00 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:06 IST" duration-ms="5481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:11 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:17 IST" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:22 IST" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:28 IST" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:33 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:39 IST" duration-ms="5515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:44 IST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:50 IST" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:50 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:03:55 IST" duration-ms="5492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:03:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:01 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:01 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:06 IST" duration-ms="5441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:11 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:17 IST" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:22 IST" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:28 IST" duration-ms="5497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:33 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:39 IST" duration-ms="5422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:44 IST" duration-ms="5410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:44 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:50 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:50 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:04:55 IST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:04:55 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:01 IST" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:01 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:06 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:06 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:11 IST" duration-ms="5414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:11 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:17 IST" duration-ms="5490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:17 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:22 IST" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:22 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:28 IST" duration-ms="5442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:28 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:33 IST" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:33 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:39 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method signature="CustomerLoginValidDetailsTest()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:39 IST" name="CustomerLoginValidDetailsTest" finished-at="2024-01-10T01:05:44 IST" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginValidDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DemoAutomationBank.testCases.CustomerLogin_TestCase@ca30bc1]" started-at="2024-01-10T01:05:44 IST" name="tearDown" finished-at="2024-01-10T01:05:45 IST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
