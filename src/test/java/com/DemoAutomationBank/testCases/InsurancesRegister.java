@@ -1,7 +1,5 @@
 package com.DemoAutomationBank.testCases;
 
-import static org.testng.Assert.assertSame;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -9,13 +7,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 import junit.framework.Assert;
 
 public class InsurancesRegister {
-
-	public static void main(String[] args) throws InterruptedException, IOException {
+    @Test(invocationCount = 10)
+    public void registerInsurance() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -57,14 +57,23 @@ public class InsurancesRegister {
 		driver.findElement(By.xpath("//input[@name='c_password']")).sendKeys("Masum@1234567");
 		driver.findElement(By.xpath("//input[@name='submit']")).click();
 		Thread.sleep(3000);
-		String loginUrl="https://demo.guru99.com/insurance/v1/index.php";
-		String currentLogin=driver.getCurrentUrl();
-		if(loginUrl!=currentLogin) {
+		String loginUrl = "https://demo.guru99.com/insurance/v1/index.php";
+		String currentLogin = driver.getCurrentUrl();
+		if (loginUrl != currentLogin) {
 			System.out.println("Test Passed");
-		}else {
+		} else {
 			System.out.println("Test Fail");
 		}
+		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("masumraza@gmail.com");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Masum@1234567");
+		driver.findElement(By.xpath("//input[@name='submit'][@type='submit']")).click();
 		System.out.println(driver.getTitle());
+		Thread.sleep(5000);
+		
+		String email="masumraza@gmail.com";
+		WebElement emails=driver.findElement(By.xpath("//h4[text()='masumraza@gmail.com']"));
+		WebDriverWait wait=new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated((By) emails));
 		
 		driver.quit();
 	}
