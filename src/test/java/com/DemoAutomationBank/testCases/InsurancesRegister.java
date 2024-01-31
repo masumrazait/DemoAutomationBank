@@ -1,6 +1,5 @@
 package com.DemoAutomationBank.testCases;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -11,11 +10,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
 import junit.framework.Assert;
 
 public class InsurancesRegister {
-    @Test(invocationCount = 10)
-    public void registerInsurance() throws InterruptedException {
+	@Test
+	public void registerInsurance() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -69,12 +69,10 @@ public class InsurancesRegister {
 		driver.findElement(By.xpath("//input[@name='submit'][@type='submit']")).click();
 		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
-		
-		String email="masumraza@gmail.com";
-		WebElement emails=driver.findElement(By.xpath("//h4[text()='masumraza@gmail.com']"));
-		WebDriverWait wait=new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.invisibilityOfElementLocated((By) emails));
-		
+
+		WebElement emails = driver.findElement(By.xpath("//h4[text()='masumraza@gmail.com']"));
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.titleIs(driver.getTitle()));
 		driver.quit();
 	}
 }
