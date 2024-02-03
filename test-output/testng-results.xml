@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-31T21:56:25 IST" name="Default suite" finished-at="2024-01-31T21:56:59 IST" duration-ms="33979">
+  <suite started-at="2024-02-02T18:27:01 IST" name="Default suite" finished-at="2024-02-02T18:27:32 IST" duration-ms="30542">
     <groups>
     </groups>
-    <test started-at="2024-01-31T21:56:25 IST" name="Default test" finished-at="2024-01-31T21:56:59 IST" duration-ms="33979">
+    <test started-at="2024-02-02T18:27:01 IST" name="Default test" finished-at="2024-02-02T18:27:32 IST" duration-ms="30542">
       <class name="com.DemoAutomationBank.testCases.InsurancesRegister">
-        <test-method signature="registerInsurance()[pri:0, instance:com.DemoAutomationBank.testCases.InsurancesRegister@42530531]" started-at="2024-01-31T21:56:25 IST" name="registerInsurance" finished-at="2024-01-31T21:56:59 IST" duration-ms="33879" status="PASS">
+        <test-method signature="registerInsurance()[pri:0, instance:com.DemoAutomationBank.testCases.InsurancesRegister@42530531]" started-at="2024-02-02T18:27:01 IST" name="registerInsurance" finished-at="2024-02-02T18:27:31 IST" duration-ms="30387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerInsurance -->

@@ -30,6 +30,11 @@ public class ActionsClass {
 		action.dragAndDrop(src, trg).build().perform();
 		File screen=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screen,new File("./Screenshots/img.png"));
+
+		//ScreenShot
+		File screens=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screens,new File("./Drivers/image.png"));
+		
 		
 		System.out.println(driver.getTitle());
 		Thread.sleep(3000);
@@ -37,6 +42,7 @@ public class ActionsClass {
 		
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,5000)");
+
 		
 		WebElement dropdown=driver.findElement(By.xpath("//select[@name='country']"));
 		

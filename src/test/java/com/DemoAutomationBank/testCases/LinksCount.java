@@ -22,7 +22,7 @@ public class LinksCount {
 		for (WebElement links : link) {
 			String Text = links.getText();
 			String href = links.getAttribute("href");
-			Thread.sleep(15000);
+			Thread.sleep(5000);
 			System.out.println("Text on the Link : " + Text);
 			System.out.println("Link on the Page : " + href);
 		}

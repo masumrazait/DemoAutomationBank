@@ -35,6 +35,7 @@ public class CustomerLogin_TestCase extends BaseClass {
 		logger.info("User Clicked on Login button");
 		Thread.sleep(3000);
 
+		
 		if (driver.getPageSource().contains("Neville Longbottom")) {
 			Assert.assertTrue(true);
 			logger.info("Account login successful. test passed!");
