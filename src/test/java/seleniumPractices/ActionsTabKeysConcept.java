@@ -15,6 +15,7 @@ public class ActionsTabKeysConcept {
 		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
 
 		WebElement rightClickEle = driver.findElement(By.cssSelector("span.context-menu-one"));
+		driver.quit();
 	}
 
 }
