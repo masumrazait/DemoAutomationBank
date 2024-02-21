@@ -15,9 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.ClickAction;
 
 public class AllConcept {
 
@@ -27,32 +25,30 @@ public class AllConcept {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
-		List<WebElement> links = driver.findElements(By.tagName("a"));
-		System.out.println("The total no of link present on page: " + links.size());
-		for (WebElement link : links) {
-			String text = link.getText();
-			String href = link.getAttribute("href");
-			System.out.println("Test on the link: " + text);
-			System.out.println("Href on the link: " + href);
-		}
-		File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screen, new File("./TestData/imagess.png"));
 
+		List<WebElement> link = driver.findElements(By.tagName("a"));
+		System.out.println("total num of linnks in page :" + link.size());
+		for (WebElement links : link) {
+			String text = links.getText();
+			String href = links.getAttribute("href");
+			System.out.println("Text present on link: " + text);
+			System.out.println("Link present on page: " + href);
+		}
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,5000)");
-		WebDriverWait wait = new WebDriverWait(driver, 50);
-		wait.until(ExpectedConditions.titleContains("jQuery contextMenu (2.x)"));
-		driver.findElement(By.linkText("Left-Click Trigger")).click();
-		WebElement left = driver.findElement(By.xpath("//span[text()='left click me']"));
+
+		WebElement rightClick = driver.findElement(By.xpath("//span[text()='right click me']"));
 		Actions action = new Actions(driver);
-		action.doubleClick(left).perform();
-		WebElement alertButton = driver.findElement(By.xpath("//span[text()='Quit']"));
-		alertButton.click();
+		action.contextClick(rightClick).build().perform();
+
+		driver.findElement(By.xpath("//span[text()='Quit']")).click();
 		Alert alert = driver.switchTo().alert();
 		System.out.println(alert.getText());
-		alert.accept();
-		System.out.println(driver.getTitle());
 		Thread.sleep(4000);
+		alert.accept();
+
+		File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screen, new File("./Drivers/images.png"));
 
 		System.out.println(driver.getTitle());
 		driver.quit();
