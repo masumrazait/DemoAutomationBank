@@ -12,7 +12,8 @@ public class Excel {
 		FileInputStream fis = new FileInputStream(filepath);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);
-		String CellValue = sheet.getRow(0).getCell(3).getStringCellValue();
+		String CellValue = sheet.getRow(0).getCell(0).getStringCellValue();
 		System.out.println(CellValue);
+
 	}
 }
