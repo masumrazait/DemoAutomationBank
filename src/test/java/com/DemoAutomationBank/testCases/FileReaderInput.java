@@ -9,11 +9,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class FileReaderInput {
 
 	public static void main(String[] args) throws IOException {
-		String filepath = "./TestData/data.xlsx";
-		FileInputStream fis = new FileInputStream(filepath);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		XSSFSheet sheet = workbook.getSheetAt(0);
-		String cellvalue = sheet.getRow(0).getCell(0).getStringCellValue();
-		System.out.println(cellvalue);
+		String fils="./TestData/data.xlsx";
+		FileInputStream fis=new FileInputStream(fils);
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		XSSFSheet sheet=workbook.getSheetAt(0);
+		String input=sheet.getRow(0).getCell(3).getStringCellValue();
+		System.out.println(input);
+		
 	}
 }
