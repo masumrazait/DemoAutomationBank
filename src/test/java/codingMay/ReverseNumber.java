@@ -10,13 +10,13 @@ public class ReverseNumber {
 		System.out.println("Enter the input:");
 		int num = sc.nextInt();
 		int rev = 0;
-		int orign = num;
+		int orignal = num;
 		while (num != 0) {
 			rev = rev * 10 + num % 10;
 			num = num / 10;
 		}
-		if (orign == rev) {
-			System.out.println(orign + " number is palindrom");
+		if (orignal == rev) {
+			System.out.println(orignal + " number is palindrom:");
 		} else {
 			System.out.println(rev + " number is not palindrom");
 		}
