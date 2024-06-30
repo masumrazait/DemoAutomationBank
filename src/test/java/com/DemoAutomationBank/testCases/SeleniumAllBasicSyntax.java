@@ -42,23 +42,28 @@ public class SeleniumAllBasicSyntax {
 
 		Actions action = new Actions(driver);
 		action.dragAndDrop(src, target).build().perform();
-
+		
+		//screenshot concept
 		File screen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screen, new File("./photo/img.png"));
 
+		//scroll down concept
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,4000)");
 
+		//screenshot concept
 		File img = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(img, new File("./photo/img1.png"));
 
 		Thread.sleep(5000);
 
+		//double click
 		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
 		WebElement rightclick = driver.findElement(By.xpath("//span[text()='right click me']"));
 		action.contextClick(rightclick).build().perform();
 		driver.findElement(By.xpath("//span[text()='Edit']")).click();
 
+		//Alert concept
 		Alert alert = driver.switchTo().alert();
 		Thread.sleep(3000);
 		System.out.println(alert.getText());
@@ -73,10 +78,12 @@ public class SeleniumAllBasicSyntax {
 		action.contextClick(rt).build().perform();
 		WebElement parentmenu = driver.findElement(By.xpath("//span[text()='Sub group']"));
 
+		//mouse over
 		action.moveToElement(parentmenu).build().perform();
 		Thread.sleep(3000);
 		// driver.findElement(By.xpath("//span[text()='echo']")).click();
-
+		
+		//Authentication
 		String username = "admin";
 		String pswd = "admin";
 		String Url = "https://" + username + ":" + pswd + "@" + "the-internet.herokuapp.com/basic_auth";
@@ -84,7 +91,8 @@ public class SeleniumAllBasicSyntax {
 		System.out.println(driver.getTitle());
 
 		driver.get("https://www.wikipedia.org/");
-
+		
+		//drop down
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='searchLanguage']"));
 		Select select = new Select(dropdown);
 		select.selectByIndex(3);
