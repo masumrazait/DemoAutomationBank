@@ -73,7 +73,7 @@ public class AllSeleniumCocept {
 
 		File srcs = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcs, new File("./Screenshot/imge1.png"));
-		Thread.sleep(2000);
+		Thread.sleep(-2000);
 
 		// JavaScriptExecutor
 		JavascriptExecutor js = (JavascriptExecutor) driver;
