@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AllSeleniumJavaConceptForQA {
@@ -65,7 +66,35 @@ public class AllSeleniumJavaConceptForQA {
 			System.out.println("Href present in the page : " + href);
 			System.out.println("Text present in the page : " + text);
 		}
+		Thread.sleep(3000);
+		driver.get("https://www.wikipedia.org/");
+		WebElement country = driver.findElement(By.id("searchLanguage"));
+		Select dropdown = new Select(country);
+		List<WebElement> options = dropdown.getOptions();
+		// Loop through the options and print their text
+		for (WebElement option : options) {
+			System.out.println("All country list: " + option.getText());
+		}
+		dropdown.selectByVisibleText("Polski");
+		dropdown.selectByIndex(11);
+		dropdown.selectByValue("cs");
 		Thread.sleep(4000);
+		driver.findElement(By.xpath("//strong[text()='Deutsch']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[text()='Jacoby Jones']")).click();
+		Thread.sleep(2000);
+		System.out.println(driver.getTitle());
+		driver.navigate().back();
+		System.out.println(driver.getTitle());
+		Thread.sleep(2000);
+		driver.navigate().forward();
+		System.out.println(driver.getTitle());
+		driver.navigate().refresh();
+		driver.get("https://www.wikipedia.org/");
+
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//i[text()='Search']")).click();
+		Thread.sleep(3000);
 		driver.quit();
 
 	}
